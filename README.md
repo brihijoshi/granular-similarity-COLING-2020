@@ -8,7 +8,8 @@ accepted at [The 28th International Conference on Computational Linguistics (COL
 
 # License
 
-Copyright (c) Snap Inc. 2020. This sample code is made available by Snap Inc. for informational purposes only. It is provided as-is, without warranty of any kind, express or implied, including any warranties of merchantability, fitness for a particular purpose, or non-infringement.  In no event will Snap Inc. be liable for any damages arising from the sample code or your use thereof.
+Copyright (c) Snap Inc. 2020. 
+This sample code is made available by Snap Inc. for informational purposes only. It is provided as-is, without warranty of any kind, express or implied, including any warranties of merchantability, fitness for a particular purpose, or non-infringement.  In no event will Snap Inc. be liable for any damages arising from the sample code or your use thereof.
 
 
 # Quick Start
@@ -34,8 +35,7 @@ Provide appropriate paths for data files and parameters in ```constants.py```.
 
 # Contact
 
-If you face any problem in running this code, you can contact us at aditya16217\[at\]iiitd\[dot\]ac\[dot\]in or brihi16142\[at\]iiitd\[dot\]ac\[dot\]in or hridoyd\[at\]iiitd\[dot\]ac\[dot\]in
+If you face any problem in running this code, you can contact us at brihi16142\[at\]iiitd\[dot\]ac\[dot\]in or make an Issue in this repository.
 
-
-For license information, see [LICENSE](LICENSE) or http://mit-license.org
+For license information, see [LICENSE](LICENSE)
 
