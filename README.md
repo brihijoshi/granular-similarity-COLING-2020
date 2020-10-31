@@ -34,22 +34,22 @@ To install the dependencies used in the code, you can use the __requirements.txt
 pip install -r requirements.txt
 ```
 
-### Additional Resources
+### Installing baselines and datasets
 
-For running the experiments - 
-1. Using the SIF Baseline, follow the installation steps given [here](https://github.com/PrincetonML/SIF).
-1. For accessing the Bugrepo dataset, download the dataset from this [LogPAI Bugrepo repository.](https://github.com/logpai/bugrepo)
+1. Using the SIF Baseline, follow the installation steps given [here](https://github.com/PrincetonML/SIF) and add it to the ```code/SIF``` location.
+1. For accessing the Bugrepo dataset, download the dataset from this [LogPAI Bugrepo repository.](https://github.com/logpai/bugrepo).
 
 ## Running the code
 
 The code is organised as follows. 
 
 ```
-code/
------------utils/ # This folder contains all the necessary pre-processing and skeleton code for the models. 
------------SIF/ # This folder contains the SIF baseline requirements
------------news_dedup_experiments/ # This folder contains the experiments done with the News Dedup dataset
------------bugrepo_experiments/ # This folder contains the experiments done with the Bugrepo dataset
+├── code
+│   ├── utils/ # This folder contains all the necessary pre-processing and skeleton code for the models. 
+│   ├── SIF/ # This folder contains the SIF baseline requirements, installed as per the above instructions.
+│   ├── news_dedup_experiments/ # This folder contains the experiments done with the News Dedup dataset
+│   └── bugrepo_experiments/ # This folder contains the experiments done with the Bugrepo dataset
+└── README.m
 ```
 
 To run the code for specific experiments, go to their respective Jupyter Notebook and run the cells to train the models. 
