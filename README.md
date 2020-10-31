@@ -49,7 +49,7 @@ The code is organised as follows.
 │   ├── SIF/ # This folder contains the SIF baseline requirements, installed as per the above instructions.
 │   ├── news_dedup_experiments/ # This folder contains the experiments done with the News Dedup dataset
 │   └── bugrepo_experiments/ # This folder contains the experiments done with the Bugrepo dataset
-└── README.m
+└── README.md
 ```
 
 To run the code for specific experiments, go to their respective Jupyter Notebook and run the cells to train the models. 
