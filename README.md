@@ -48,7 +48,7 @@ The code is organised as follows.
 │   ├── utils/ # This folder contains all the necessary pre-processing and skeleton code for the models. 
 │   ├── SIF/ # This folder contains the SIF baseline requirements, installed as per the above instructions.
 │   ├── news_dedup_experiments/ # This folder contains the experiments done with the News Dedup dataset
-│   └── bugrepo_experiments/ # This folder contains the experiments done with the Bugrepo dataset
+│   └── bug_data_experiments/ # This folder contains the experiments done with the Bugrepo dataset
 └── README.md
 ```
 
@@ -57,7 +57,7 @@ To run the code for specific experiments, go to their respective Jupyter Noteboo
 For example, to run the code for the TFIDF Experiments for the Bugrepo dataset run the following - 
 
 ```
-cd bugrepo_experiments/
+cd bug_data_experiments/
 jupyter notebook
 ```
 
