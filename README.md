@@ -24,15 +24,35 @@ To install the dependencies used in the code, you can use the __requirements.txt
 pip install -r requirements.txt
 ```
 
+### Additional Resources
+
+For running the experiments - 
+1. Using the SIF Baseline, follow the installation steps given [here](https://github.com/PrincetonML/SIF).
+1. For accessing the Bugrepo dataset, download the dataset from this [LogPAI Bugrepo repository.](https://github.com/logpai/bugrepo)
+
 ## Running the code
 
-First ```cd code``` and then run the ```corerank.py``` as follows - 
+The code is organised as follows. 
 
 ```
-python corerank.py
+code/
+-----------utils/ # This folder contains all the necessary pre-processing and skeleton code for the models. 
+-----------SIF/ # This folder contains the SIF baseline requirements
+-----------news_dedup_experiments/ # This folder contains the experiments done with the News Dedup dataset
+-----------bugrepo_experiments/ # This folder contains the experiments done with the Bugrepo dataset
 ```
-This will generate rankings for the tweets and users present in the Graph as present in the paper.
-Provide appropriate paths for data files and parameters in ```constants.py```.
+
+To run the code for specific experiments, go to their respective Jupyter Notebook and run the cells to train the models. 
+
+For example, to run the code for the TFIDF Experiments for the Bugrepo dataset run the following - 
+
+```
+cd bugrepo_experiments/
+jupyter notebook
+```
+
+and open the ```tf_idf_classification_bugrepo.ipynb``` notebook.
+
 
 # Contact
 
