@@ -17,6 +17,7 @@ This sample code is made available by Snap Inc. for informational purposes only.
 ## Requirements
 
 - Python 3.5.x
+
 To install the dependencies used in the code, you can use the __requirements.txt__ file as follows -
 
 ```
