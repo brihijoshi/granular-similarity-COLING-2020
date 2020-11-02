@@ -1,8 +1,5 @@
 # The Devil is in the Details: Evaluating Limitations of Transformer-based Methods for Granular Tasks
 
-[![HitCount](http://hits.dwyl.com/brihijoshi/granular-similarity-COLING-2020.svg)](http://hits.dwyl.com/brihijoshi/granular-similarity-COLING-2020)
-
-
 This is the code and the dataset for the paper titled 
 
 >[The Devil is in the Details: Evaluating Limitations of Transformer-based Methods for Granular Tasks. Brihi Joshi, Neil Shah, Francesco Barbieri, Leonardo Neves](https://github.com/brihijoshi/granular-similarity-COLING-2020/)
