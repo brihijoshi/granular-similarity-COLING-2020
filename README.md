@@ -2,9 +2,23 @@
 
 This is the code and the dataset for the paper titled 
 
->[The Devil is in the Details: Evaluating Limitations of Transformer-based Methods for Granular Tasks. Brihi Joshi, Neil Shah, Francesco Barbieri, Leonardo Neves](https://github.com/brihijoshi/granular-similarity-COLING-2020/)
+>[The Devil is in the Details: Evaluating Limitations of Transformer-based Methods for Granular Tasks. Brihi Joshi, Neil Shah, Francesco Barbieri, Leonardo Neves](https://arxiv.org/abs/2011.01196)
 
 accepted at [The 28th International Conference on Computational Linguistics (COLING’20)](https://coling2020.org/).
+
+
+If you end up using this code or the data, please cite our paper: 
+
+```
+@misc{joshi2020devil,
+      title={The Devil is in the Details: Evaluating Limitations of Transformer-based Methods for Granular Tasks}, 
+      author={Brihi Joshi and Neil Shah and Francesco Barbieri and Leonardo Neves},
+      year={2020},
+      eprint={2011.01196},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 # About
 
