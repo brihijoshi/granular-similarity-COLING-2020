@@ -2,7 +2,7 @@
 
 This is the code and the dataset for the paper titled 
 
->[The Devil is in the Details: Evaluating Limitations of Transformer-based Methods for Granular Tasks. Brihi Joshi, Neil Shah, Francesco Barbieri, Leonardo Neves](https://arxiv.org/abs/2011.01196)
+>[The Devil is in the Details: Evaluating Limitations of Transformer-based Methods for Granular Tasks. Brihi Joshi, Neil Shah, Francesco Barbieri, Leonardo Neves](https://www.aclweb.org/anthology/2020.coling-main.326/)
 
 accepted at [The 28th International Conference on Computational Linguistics (COLING’20)](https://coling2020.org/).
 
@@ -10,13 +10,20 @@ accepted at [The 28th International Conference on Computational Linguistics (COL
 If you end up using this code or the data, please cite our paper: 
 
 ```
-@misc{joshi2020devil,
-      title={The Devil is in the Details: Evaluating Limitations of Transformer-based Methods for Granular Tasks}, 
-      author={Brihi Joshi and Neil Shah and Francesco Barbieri and Leonardo Neves},
-      year={2020},
-      eprint={2011.01196},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{joshi-etal-2020-devil,
+    title = "The Devil is in the Details: Evaluating Limitations of Transformer-based Methods for Granular Tasks",
+    author = "Joshi, Brihi  and
+      Shah, Neil  and
+      Barbieri, Francesco  and
+      Neves, Leonardo",
+    booktitle = "Proceedings of the 28th International Conference on Computational Linguistics",
+    month = dec,
+    year = "2020",
+    address = "Barcelona, Spain (Online)",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.coling-main.326",
+    pages = "3652--3659",
+    abstract = "Contextual embeddings derived from transformer-based neural language models have shown state-of-the-art performance for various tasks such as question answering, sentiment analysis, and textual similarity in recent years. Extensive work shows how accurately such models can represent abstract, semantic information present in text. In this expository work, we explore a tangent direction and analyze such models{'} performance on tasks that require a more granular level of representation. We focus on the problem of textual similarity from two perspectives: matching documents on a granular level (requiring embeddings to capture fine-grained attributes in the text), and an abstract level (requiring embeddings to capture overall textual semantics). We empirically demonstrate, across two datasets from different domains, that despite high performance in abstract document matching as expected, contextual embeddings are consistently (and at times, vastly) outperformed by simple baselines like TF-IDF for more granular tasks. We then propose a simple but effective method to incorporate TF-IDF into models that use contextual embeddings, achieving relative improvements of up to 36{\%} on granular tasks.",
 }
 ```
 
